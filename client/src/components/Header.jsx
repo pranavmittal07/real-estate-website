@@ -10,8 +10,8 @@ const Header = () => {
                 <span className='text-slate-500'>Apna</span>
                 <span className='text-slate-700'>Ghar</span>
             </h1>
-            <form className='flex'>
-                <input type="text" placeholder='Search...' className='bg-transparent focus:outline-5'/>
+            <form className='flex bg-slate-100 p-3 rounded-lg items-center'>
+                <input type="text" placeholder='Search...' className='bg-transparent focus:outline-none'/>
                 <FaSearch className='text-slate-600'/>
             </form>
 
